@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  body {
+    font-family: "lato", sans-serif;
+    color: white;
+    background-image:url("image/afro11.jpg");
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  
+  .logo {
+      color:white ;
+  }
+  li {
+    list-style-type: none;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+  }
+
+  .navbar {
+    background-color: rgb(35, 134, 195);
+    height: 70px;
+    padding: 0 30px;
+  }
+
+  .navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+
+  .navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: rgb(214, 197, 197);
+    padding: 9px;
+    margin: 0 10px;
+  }
+
+  .navbar a:hover {
+    color:rgb(35, 134, 195);
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  .slogan{
+      font: size 1000px;;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h1 {
+      text-align: center;
+      justify-content: center;
+      margin-top:200px;
+      color:rgb(35, 134, 195);
+  }
+
+h2 {
+    background-color:transparent;
+    align-items: right;
+    justify-content:right;
+    color:rgb(35, 134, 195);
+    text-align: center;
+    margin-top:30px;
+    font-size: 18px;
+    
+}
+
+h3 {
+    background-color:transparent;
+    align-items: right;
+    justify-content:left;
+    color: rgb(35, 134, 195);
+    text-align:center;
+    margin-top:10px;
+    font-size: 18px;
+    
+}
+
+.aboutus {
+    text-align: center;
+      justify-content: center;
+      margin-top:100px;
+      color: grey;
+
+}
+
+.contactus {
+    text-align:center;
+      justify-content: center;
+      margin-top:100px;
+      color: grey;
+}
